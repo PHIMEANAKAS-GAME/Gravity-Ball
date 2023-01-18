@@ -1,0 +1,25 @@
+<dependencies>
+<unityversion>4.3.4.0</unityversion>
+  <androidPackages>
+    <androidPackage spec="com.yahoo.mobile.ads:android-yahoo-mobile-sdk:1.3.0">
+      <repositories>
+          <repository>https://artifactory.yahooinc.com/artifactory/maven/</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+
+    <androidPackages>
+    <androidPackage spec="com.ironsource.adapters:yahooadapter:4.3.3">
+      <repositories>
+        <repository>https://android-sdk.is.com/</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+    <iosPods>
+      <iosPod name="IronSourceYahooAdapter" version="4.3.4.0">
+        <sources>
+          <source>https://github.com/CocoaPods/Specs</source>
+        </sources>
+      </iosPod>
+    </iosPods>
+</dependencies>

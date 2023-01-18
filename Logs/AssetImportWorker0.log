@@ -1,23 +1,30 @@
+Unity Editor version:    2022.1.1f1 (53d13f540f71)
+Branch:                  2022.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2022.1/staging' branch; Version is '2022.1.1f1 (53d13f540f71) revision 5493055'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16326 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.1.1f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ratan/Desktop/Projects/5 Gravity Ball/Gravity Ball
+/Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52937
-Successfully changed project path to: C:/Users/ratan/Desktop/Projects/5 Gravity Ball/Gravity Ball
-C:/Users/ratan/Desktop/Projects/5 Gravity Ball/Gravity Ball
+64915
+Successfully changed project path to: /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball
+/Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,276 +54,710 @@ C:/Users/ratan/Desktop/Projects/5 Gravity Ball/Gravity Ball
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 95.05 ms, found 3 plugins.
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Refreshing native plugins compatible for Editor in 125.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.1f1 (53d13f540f71)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ratan/Desktop/Projects/5 Gravity Ball/Gravity Ball/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
-    Vendor:   NVIDIA
-    VRAM:     5991 MB
-    Driver:   27.21.14.5751
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016597 seconds.
-Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004865 seconds.
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.03 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 114.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
+- Completed reload, in  1.254 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (211ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
-				TypeCache.Initialize (186ms)
-					TypeCache.ScanAssembly (184ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (225ms)
+				TypeCache.Initialize (224ms)
+					TypeCache.ScanAssembly (223ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (395ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (484ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (86ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				InitializePlatformSupportModulesInManaged (91ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006198 seconds.
+Registered in 0.021448 seconds.
+Android Extension - Scanning For ADB Devices 597 ms
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ratan\Desktop\Projects\5 Gravity Ball\Gravity Ball\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ratan\Desktop\Projects\5 Gravity Ball\Gravity Ball\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
+TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
+
+[Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.616 seconds
+- Completed reload, in  2.319 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1618ms)
-		BeginReloadAssembly (279ms)
+	ReloadAssembly (2321ms)
+		BeginReloadAssembly (199ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (160ms)
-		EndReloadAssembly (1196ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1914ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
-				TypeCache.Initialize (389ms)
-					TypeCache.ScanAssembly (384ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (525ms)
+			SetupTypeCache (719ms)
+				TypeCache.Initialize (709ms)
+					TypeCache.ScanAssembly (702ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (792ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (11ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (318ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Launching external process: /Applications/Unity/Hub/Editor/2022.1.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (57.9 KB). Loaded Objects now: 3841.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 8.577900 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.671400 ms MarkObjects: 7.454200 ms  DeleteObjects: 0.090700 ms)
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (42.2 KB). Loaded Objects now: 3892.
+Memory consumption went from 505.2 MB to 505.2 MB.
+Total: 5.322870 ms (FindLiveObjects: 0.385245 ms CreateObjectMapping: 0.413382 ms MarkObjects: 4.389573 ms  DeleteObjects: 0.132952 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11213.103173 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(cb450831d0a27b34b8ff6cfff6f02396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(cb450831d0a27b34b8ff6cfff6f02396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04dbd8cd474d3679a310b1505e9cccd') in 0.007005 seconds 
-========================================================================
-Received Prepare
-Default GameObject BitMask: ShadowLayer already registered
-Default GameObject BitMask: ShadowLayer already registered
-Default GameObject BitMask: ShadowLayer already registered
-Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 94 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (159.6 KB). Loaded Objects now: 3913.
-Memory consumption went from 75.3 MB to 75.2 MB.
-Total: 3.783700 ms (FindLiveObjects: 0.334400 ms CreateObjectMapping: 0.231000 ms MarkObjects: 3.072800 ms  DeleteObjects: 0.144000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 62.854011 seconds.
-  path: Assets/GravityBall/Scenes/GravityBall.unity
-  artifactKey: Guid(cb5021244190c4dbea6b82510f49ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GravityBall/Scenes/GravityBall.unity using Guid(cb5021244190c4dbea6b82510f49ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fe325edb78d82b1eb7615b8219f39') in 0.010381 seconds 
-========================================================================
-Received Prepare
-Default GameObject BitMask: ShadowLayer already registered
-Default GameObject BitMask: ShadowLayer already registered
-Default GameObject BitMask: ShadowLayer already registered
-Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (159.4 KB). Loaded Objects now: 3913.
-Memory consumption went from 66.3 MB to 66.1 MB.
-Total: 7.124200 ms (FindLiveObjects: 0.419400 ms CreateObjectMapping: 0.292400 ms MarkObjects: 6.269000 ms  DeleteObjects: 0.141900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Default GameObject BitMask: ShadowLayer already registered
-Default GameObject BitMask: ShadowLayer already registered
-Default GameObject BitMask: ShadowLayer already registered
-Refreshing native plugins compatible for Editor in 8.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (166.8 KB). Loaded Objects now: 3913.
-Memory consumption went from 66.5 MB to 66.3 MB.
-Total: 11.594900 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.296900 ms MarkObjects: 10.751600 ms  DeleteObjects: 0.201300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 39.402384 seconds.
-  path: Assets/GravityBall/_Ads_Integration_Documentation.docx
-  artifactKey: Guid(67d45ae4c50354729bcd3df7a13561ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GravityBall/_Ads_Integration_Documentation.docx using Guid(67d45ae4c50354729bcd3df7a13561ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fcee76f81e2c6354e9bb5292825d90') in 0.043161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.980197 seconds.
-  path: Assets/GravityBall/AdsManager
-  artifactKey: Guid(83503bbec8d1bcd4d9e57626f75fd078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GravityBall/AdsManager using Guid(83503bbec8d1bcd4d9e57626f75fd078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd8757874b78b73691a20d7b14bc544') in 0.020623 seconds 
+  Time since last request: 47140.147050 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(10970ec26c1f24e16a8062349602ab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(10970ec26c1f24e16a8062349602ab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83e64fe1e5344e9020b91bf7016c871') in 0.002644 seconds 
 ========================================================================
 Received Prepare
 Default GameObject BitMask: ShadowLayer already registered
 Default GameObject BitMask: ShadowLayer already registered
 Default GameObject BitMask: ShadowLayer already registered
 Registering precompiled user dll's ...
-Registered in 0.006604 seconds.
+Registered in 0.006154 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ratan\Desktop\Projects\5 Gravity Ball\Gravity Ball\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ratan\Desktop\Projects\5 Gravity Ball\Gravity Ball\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
 This should not be called in batch mode.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
 TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
 TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
 
 [Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.309 seconds
+- Completed reload, in  2.013 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1310ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (2014ms)
+		BeginReloadAssembly (302ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1545ms)
+			LoadAssemblies (179ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-				TypeCache.Initialize (366ms)
-					TypeCache.ScanAssembly (357ms)
-				ResolveRequiredComponents (5ms)
+			SetupTypeCache (552ms)
+				TypeCache.Initialize (544ms)
+					TypeCache.ScanAssembly (537ms)
+				ResolveRequiredComponents (8ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (375ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (667ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (11ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (22.8 KB). Loaded Objects now: 3904.
+Memory consumption went from 507.6 MB to 507.6 MB.
+Total: 5.214146 ms (FindLiveObjects: 0.374403 ms CreateObjectMapping: 0.400771 ms MarkObjects: 4.395647 ms  DeleteObjects: 0.041557 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.986287 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca25f04f4c036908381c67f46aa447') in 0.002624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.125928 seconds.
+  path: Assets/GravityBall
+  artifactKey: Guid(199db3f40e1beb742834b2b9e2a41515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall using Guid(199db3f40e1beb742834b2b9e2a41515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3657dcca9aa80db2cf58a58ee89205bd') in 0.002388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.998182 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(cb450831d0a27b34b8ff6cfff6f02396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(cb450831d0a27b34b8ff6cfff6f02396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04dbd8cd474d3679a310b1505e9cccd') in 0.002487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.307617 seconds.
+  path: Assets/GravityBall/Scenes/GravityBall.unity
+  artifactKey: Guid(cb5021244190c4dbea6b82510f49ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/Scenes/GravityBall.unity using Guid(cb5021244190c4dbea6b82510f49ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fe325edb78d82b1eb7615b8219f39') in 0.001715 seconds 
+========================================================================
+Received Prepare
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Registering precompiled user dll's ...
+Registered in 0.005928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
+TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
+
+[Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2088ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1667ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+				TypeCache.Initialize (588ms)
+					TypeCache.ScanAssembly (581ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (728ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (22.8 KB). Loaded Objects now: 3907.
+Memory consumption went from 511.4 MB to 511.4 MB.
+Total: 5.230668 ms (FindLiveObjects: 0.362757 ms CreateObjectMapping: 0.404129 ms MarkObjects: 4.432216 ms  DeleteObjects: 0.029977 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.648552 seconds.
+  path: Assets/GravityBall/Editor
+  artifactKey: Guid(ff2118c3a78de2549afd0f7aa79828d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/Editor using Guid(ff2118c3a78de2549afd0f7aa79828d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a87669f8fd8c354591e8d6f26db4475') in 0.003343 seconds 
+========================================================================
+Received Prepare
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Registering precompiled user dll's ...
+Registered in 0.005994 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
+TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
+
+[Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1855ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+				TypeCache.Initialize (556ms)
+					TypeCache.ScanAssembly (549ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (620ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (23.8 KB). Loaded Objects now: 3971.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.998179 ms (FindLiveObjects: 0.420324 ms CreateObjectMapping: 0.377339 ms MarkObjects: 4.148625 ms  DeleteObjects: 0.050241 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.673348 seconds.
+  path: Assets/ThirdParty/ironSource/Prefabs
+  artifactKey: Guid(84bd976737247420c8f3aa16f8d5ce5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ironSource/Prefabs using Guid(84bd976737247420c8f3aa16f8d5ce5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4dd08a1acd873fc25ce42d5aef4005') in 0.003119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.775637 seconds.
+  path: Assets/ThirdParty/ironSource/Prefabs/AdsTestCanvas.prefab
+  artifactKey: Guid(477d6f25ceeb74afbb2bce060c543206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ironSource/Prefabs/AdsTestCanvas.prefab using Guid(477d6f25ceeb74afbb2bce060c543206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a7641206e813877a6e699b0b282790') in 0.261167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.715750 seconds.
+  path: Assets/ThirdParty/ironSource/Prefabs/AdsManager.prefab
+  artifactKey: Guid(4c906e5c64e694fdc93b349691d6e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ironSource/Prefabs/AdsManager.prefab using Guid(4c906e5c64e694fdc93b349691d6e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a3464fd1d6d945739c0b43b5cb8e73') in 0.005583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.270246 seconds.
+  path: Assets/GravityBall/PoupContinue/PopUpContinue.prefab
+  artifactKey: Guid(3ac037ea4496d44e79af980ae375fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/PoupContinue/PopUpContinue.prefab using Guid(3ac037ea4496d44e79af980ae375fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54914f9f1e10dbf6daff116181ae6175') in 0.013894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 245.242267 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png
+  artifactKey: Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png using Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56590660f0dab2fb67a21f547505bb7e') in 0.321833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png
+  artifactKey: Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png using Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14422b0d2f4ae4ec3fe5b258658f5d59') in 0.017909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png
+  artifactKey: Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png using Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc625a87d6e9b4f3754390d4a0f05b78') in 0.045273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/GravityBall/_Ressources/_Images/Leaderboard Icon.png
+  artifactKey: Guid(b57a187daad6b4a04ab76e1a32f107da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Images/Leaderboard Icon.png using Guid(b57a187daad6b4a04ab76e1a32f107da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d49f57fb1828c5f1b4a00ddaaa5e10') in 0.044545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay.png
+  artifactKey: Guid(767ce9b1aa9de8747a4c2ffc8b3dd7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay.png using Guid(767ce9b1aa9de8747a4c2ffc8b3dd7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c600b514870c3de8b5eeb964f850fee') in 0.022466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png
+  artifactKey: Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png using Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ab48fb6cca84b3c0bd0aa4ad147bd1') in 0.016442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png
+  artifactKey: Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png using Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd4fe038617d159c0c60bc693755675') in 0.015731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png
+  artifactKey: Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png using Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3742023ce634830c07a17c6fedfcf2ff') in 0.015828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/GravityBall/_Ressources/_Images/leaderboard icon.psd
+  artifactKey: Guid(cd48714c8ab2a48e384027ed0a402ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Images/leaderboard icon.psd using Guid(cd48714c8ab2a48e384027ed0a402ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae89a26dc9d2486589afd1d054c3da') in 0.572784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.013486 seconds.
+  path: Assets/ThirdParty/ironSource/Sprites/adv_icon.png
+  artifactKey: Guid(ce65b3a82ad0d47418c8c04c7c1866e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/ironSource/Sprites/adv_icon.png using Guid(ce65b3a82ad0d47418c8c04c7c1866e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc6cb7a9b4519479a6b3f243d2396ca') in 0.016185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png
+  artifactKey: Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png using Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd26c7e57d23c8e3767b56032217cb5c') in 0.029340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/GravityBall/_Ressources/_Images/gradiant.png
+  artifactKey: Guid(24d58521ceb3940d1a9f5298c33356d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Images/gradiant.png using Guid(24d58521ceb3940d1a9f5298c33356d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3547337d3edb49cb0a478ebe736ee484') in 0.025661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedlocal.png
+  artifactKey: Guid(0c6a2a64ca9f9c946a7dbbd1674cf5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedlocal.png using Guid(0c6a2a64ca9f9c946a7dbbd1674cf5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd3891872fbbc15007cb76a0f4a4b80') in 0.023653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading.png
+  artifactKey: Guid(d58e94bfb1bac774dbb8ca9c2597ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading.png using Guid(d58e94bfb1bac774dbb8ca9c2597ef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5def299cfb6ffce5c55d33d987413e') in 0.020001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png
+  artifactKey: Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png using Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f31f164a979d5f916b4691e31a2b90') in 0.036089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedlocal@2x.png
+  artifactKey: Guid(02800fb9cff14da47a04572790384d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedlocal@2x.png using Guid(02800fb9cff14da47a04572790384d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e3b4fc0bb11d5eb881a4e5f58cf770') in 0.015501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading@2x.png
+  artifactKey: Guid(7ee48c5fba4919649a8a6094cbead669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_loading@2x.png using Guid(7ee48c5fba4919649a8a6094cbead669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd6dab31493a1614df6c48fe53f1bfa') in 0.022808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379780 seconds.
+  path: Assets/GravityBall/_Ressources/_Images/ArrowRight@2x.png
+  artifactKey: Guid(fbc9367e9c6eb2c4fa51d303d35992c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Images/ArrowRight@2x.png using Guid(fbc9367e9c6eb2c4fa51d303d35992c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c509c1e855f23448ed23df3a7bd9862') in 0.014893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/GravityBall/_Ressources/_Images/cam icon.png
+  artifactKey: Guid(03febdac47c3e4b3782694f764ab0209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Images/cam icon.png using Guid(03febdac47c3e4b3782694f764ab0209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196f6705e25dd6cb9dc1962ff49bdcb9') in 0.042977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bec457936a55bcf228056dcc90330e3') in 0.021369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/GravityBall/_Ressources/_Images/CircleButton.png
+  artifactKey: Guid(05d656561150748cea7a2f8934365b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Images/CircleButton.png using Guid(05d656561150748cea7a2f8934365b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea2860f9e749d87814e52cb98ebceae') in 0.049336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70575513642efdc7348fd4ff29a4866') in 0.025765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
+  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e0ff6b9238988c234d5f5887effd04') in 0.018211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
+  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ab9e4e25430b5362d02413702a49dd') in 0.044032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.040123 seconds.
+  path: Assets/GravityBall/_Ressources/_Fonts/CarterOne.ttf
+  artifactKey: Guid(1e90e816450a139488dfc8fe0240dea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GravityBall/_Ressources/_Fonts/CarterOne.ttf using Guid(1e90e816450a139488dfc8fe0240dea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2368a2deeabb9c0de8c2b817e0014206') in 3.253515 seconds 
+========================================================================
+Received Prepare
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Registering precompiled user dll's ...
+Registered in 0.006293 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
+TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
+
+[Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.259 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2260ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (639ms)
+				TypeCache.Initialize (629ms)
+					TypeCache.ScanAssembly (621ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (799ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (582ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (23.8 KB). Loaded Objects now: 4041.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 6.487351 ms (FindLiveObjects: 0.422467 ms CreateObjectMapping: 0.442297 ms MarkObjects: 5.584564 ms  DeleteObjects: 0.036125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Registering precompiled user dll's ...
+Registered in 0.006546 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
+TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
+
+[Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.174 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2176ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1761ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (638ms)
+				TypeCache.Initialize (627ms)
+					TypeCache.ScanAssembly (619ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (552ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -325,20 +766,20 @@ Platform modules already initialized, skipping
 OnLevelWasLoaded was found on DOTweenComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (162.3 KB). Loaded Objects now: 3893.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 3.770400 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.259100 ms MarkObjects: 3.043200 ms  DeleteObjects: 0.158200 ms)
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (23.8 KB). Loaded Objects now: 4044.
+Memory consumption went from 0.82 GB to 0.82 GB.
+Total: 5.140763 ms (FindLiveObjects: 0.344020 ms CreateObjectMapping: 0.317615 ms MarkObjects: 4.444354 ms  DeleteObjects: 0.033468 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -348,75 +789,73 @@ Default GameObject BitMask: ShadowLayer already registered
 Default GameObject BitMask: ShadowLayer already registered
 Default GameObject BitMask: ShadowLayer already registered
 Registering precompiled user dll's ...
-Registered in 0.007754 seconds.
+Registered in 0.006287 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ratan\Desktop\Projects\5 Gravity Ball\Gravity Ball\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ratan\Desktop\Projects\5 Gravity Ball\Gravity Ball\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
 This should not be called in batch mode.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
 TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
 TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
 
 [Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.284 seconds
+- Completed reload, in  2.083 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2286ms)
-		BeginReloadAssembly (242ms)
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (368ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (1711ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (185ms)
+		EndReloadAssembly (1528ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (615ms)
-				TypeCache.Initialize (602ms)
-					TypeCache.ScanAssembly (593ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (703ms)
+			SetupTypeCache (578ms)
+				TypeCache.Initialize (569ms)
+					TypeCache.ScanAssembly (559ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (650ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (70ms)
-				SetLoadedEditorAssemblies (11ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (464ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on DOTweenComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3425 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (169.4 KB). Loaded Objects now: 3896.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 3.931400 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.244400 ms MarkObjects: 2.995600 ms  DeleteObjects: 0.316500 ms)
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (23.8 KB). Loaded Objects now: 4047.
+Memory consumption went from 0.82 GB to 0.82 GB.
+Total: 4.941758 ms (FindLiveObjects: 0.373736 ms CreateObjectMapping: 0.322140 ms MarkObjects: 4.177829 ms  DeleteObjects: 0.066331 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -425,20 +864,118 @@ Received Prepare
 Default GameObject BitMask: ShadowLayer already registered
 Default GameObject BitMask: ShadowLayer already registered
 Default GameObject BitMask: ShadowLayer already registered
-Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Registering precompiled user dll's ...
+Registered in 0.006083 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/Cleint Project/Unity/Phimeanakas/Gravity-Ball/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (166.5 KB). Loaded Objects now: 3896.
-Memory consumption went from 66.9 MB to 66.7 MB.
-Total: 8.456800 ms (FindLiveObjects: 0.445000 ms CreateObjectMapping: 0.670000 ms MarkObjects: 7.034300 ms  DeleteObjects: 0.306000 ms)
+Cancelling DisplayDialog: gravityballL Setup Layer Name Gravity Ball is trying to set the Shadow Layer: ShadowLayer . Do you allow to Gravity Ball create a new layer in a empty slot?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+TagLayerClass:createLayer () (at Assets/GravityBall/Scripts/Editor/classTags.cs:125)
+TagLayerClass:.cctor () (at Assets/GravityBall/Scripts/Editor/classTags.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:145)
+
+[Assets/GravityBall/Scripts/Editor/classTags.cs line 125]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1969ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (1535ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (569ms)
+				TypeCache.Initialize (561ms)
+					TypeCache.ScanAssembly (554ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (23.8 KB). Loaded Objects now: 4050.
+Memory consumption went from 0.82 GB to 0.82 GB.
+Total: 4.666238 ms (FindLiveObjects: 0.367399 ms CreateObjectMapping: 0.331168 ms MarkObjects: 3.930266 ms  DeleteObjects: 0.035849 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Refreshing native plugins compatible for Editor in 19.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (23.8 KB). Loaded Objects now: 4050.
+Memory consumption went from 376.1 MB to 376.1 MB.
+Total: 7.665094 ms (FindLiveObjects: 0.692961 ms CreateObjectMapping: 0.594008 ms MarkObjects: 6.313325 ms  DeleteObjects: 0.063036 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Default GameObject BitMask: ShadowLayer already registered
+Refreshing native plugins compatible for Editor in 25.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (22.8 KB). Loaded Objects now: 4050.
+Memory consumption went from 375.8 MB to 375.8 MB.
+Total: 33.856301 ms (FindLiveObjects: 1.297983 ms CreateObjectMapping: 0.377921 ms MarkObjects: 31.863729 ms  DeleteObjects: 0.314494 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
