@@ -320,11 +320,23 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2022.1.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
       <HintPath>Assets/GravityBall/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.JarResolver.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets/GravityBall/Demigiant/DOTween/DOTween.dll</HintPath>
@@ -347,8 +359,14 @@
     <Reference Include="DOTween43">
       <HintPath>Assets/GravityBall/Demigiant/DOTween/DOTween43.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
@@ -358,24 +376,6 @@
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>Assets/GravityBall/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.PackageManagerResolver">
-      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.PackageManagerResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.JarResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.VersionHandlerImpl.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver">
-      <HintPath>Library/PackageCache/com.google.external-dependency-manager@02f9f8f52e93/ExternalDependencyManager/Editor/1.2.172/Google.IOSResolver.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
